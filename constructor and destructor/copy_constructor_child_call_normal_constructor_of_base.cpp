@@ -32,5 +32,6 @@ int main()
    D d1;
    cout<<endl<<"_____________________"<<endl;
    D d(d1);
+   cout << endl<< "_____________________" << endl;
    fun(d1);
 }

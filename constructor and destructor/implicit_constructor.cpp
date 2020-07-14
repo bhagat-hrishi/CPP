@@ -23,5 +23,5 @@ int main()
 {
     A obj1=9.4f;//by default floating point is double so f is added and here also conversion constructor called
     A obj2=90;//here implicitly constructor is called
-    A obj3=true;
+    A obj3=true;// here also float called as for bool we have explicit
 }

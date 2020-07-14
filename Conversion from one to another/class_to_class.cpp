@@ -8,6 +8,11 @@ public:
     {
         this->p=p;
         this->q=q;
+        cout<<"\np : "<<this->p<<" q: "<<this->q<<"\n"; 
+    }
+    Product(const Product& obj)
+    {
+        cout<<endl<<endl<<"Copy of product\n";
     }
     getP()
     {
@@ -34,11 +39,12 @@ public:
         this->b=obj.getQ();
     }
     //overloading of = operator
-    void operator=(Product obj)
+    void operator=(Product& obj)
     {
         cout<<endl<<"= operator called";
         this->a=obj.getP();
         this->b=obj.getQ();
+        cout<<endl<<"= operator called "<<this->a<<" "<<this->b;
     }
     void showItems()
     {
@@ -51,7 +57,9 @@ int main()
     Item obj;
     obj.showItems();
     Product Product_obj(9,10);
+    cout<<"\n__________\n";
     obj=Product_obj;//assignment of product object to Item Object
+    cout << "\n__________\n";
     obj.showItems();
 
     cout<<"\n______call to conversion constructor_____\n";

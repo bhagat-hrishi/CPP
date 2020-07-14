@@ -9,12 +9,16 @@ class Integer
         //normal constructor
         Integer()
         {
-
+            cout<<"\n\nccallied\n\n";
         }
         //para constructor
         Integer(int a)
         {
             this->a=a;
+        }
+        Integer(const Integer& obj)
+        {
+            cout<<"\nCopy constructor";
         }
         //prefix operator overloading
         Integer operator --()

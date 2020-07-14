@@ -18,7 +18,7 @@ implementation then class has to declare that function as pure virtual function
     Static functions are class specific and may not be called on objects.
     Virtual functions are called according to the pointed or referred object
 
-
+    
 */
 class Person
 {

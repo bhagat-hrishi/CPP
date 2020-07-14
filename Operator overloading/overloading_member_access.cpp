@@ -17,10 +17,13 @@ public:
         cout<<"\ncalled\n";
         return this;
     }
+    
 };
 int main()
 {
     Integer obj(3435);
     Integer *ptr=&obj;//declare pointer
     cout<<ptr->a;
+    cout<<endl;
+    cout<<obj.a;
 }

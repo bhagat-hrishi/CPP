@@ -6,6 +6,10 @@ class Test
 public:
 	Test() { cout << "Constructor is executed\n"; }
 	~Test() { cout << "Destructor is executed\n"; }
+	Test(const Test& obj)
+	{
+		cout<<"\nCopy\n";
+	}
 	friend void fun(Test t);
 };
 void fun(Test t)

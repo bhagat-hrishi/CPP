@@ -2,7 +2,8 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-//when exception is rethrown it will not catch by same catch statement or any other catch statement in same group
+//when exception is rethrown it will not catch by same catch statement 
+//or any other catch statement in same group
 int main()
 {
     try
@@ -33,7 +34,7 @@ int main()
     }
     catch(int a)
     {
-        cout<<"outer tin";
+        cout<<"outer int";
     }
 
 }
