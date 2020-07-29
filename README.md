@@ -11,7 +11,7 @@ https://stackoverflow.com/questions/502856/whats-the-difference-between-size-t-a
 
 
 ## OOP
-https://stackoverflow.com/questions/19227664/whats-the-c-idiom-equivalent-to-the-java-static-block
+#### https://stackoverflow.com/questions/19227664/whats-the-c-idiom-equivalent-to-the-java-static-block
 https://stackoverflow.com/questions/16956693/why-c-copy-constructor-must-use-const-object
 https://stackoverflow.com/questions/14211462/displaying-object-name-inside-destructor
 https://stackoverflow.com/questions/9161512/assignment-operator-inheritance
