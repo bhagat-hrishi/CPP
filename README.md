@@ -1,7 +1,7 @@
 # CPP
-This repo contain codes of c++ concepts and some of there corner cases
+## This repo contain codes of c++ concepts and some of there corner cases
 
-For visualization of cpp program
+## For visualization of cpp program
 #### http://www.pythontutor.com/cpp.html#mode=edit
 
 ## C++ Program Output GFG
