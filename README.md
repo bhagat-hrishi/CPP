@@ -1,16 +1,23 @@
 # CPP
 This repo contain codes of c++ concepts and some of there corner cases
 
-for visualization of cpp program
+For visualization of cpp program
 #### http://www.pythontutor.com/cpp.html#mode=edit
 
-# StackOverflow
+## C++ Program Output GFG
+#### https://www.geeksforgeeks.org/c-programming-multiple-choice-questions/
 
-## data types
+## Stroustrup.com
+#### https://www.stroustrup.com/index.html
+
+
+## StackOverflow
+
+### data types
 #### https://stackoverflow.com/questions/502856/whats-the-difference-between-size-t-and-int-in-c
 
 
-## OOP
+### OOP
 #### https://stackoverflow.com/questions/19227664/whats-the-c-idiom-equivalent-to-the-java-static-block
 #### https://stackoverflow.com/questions/16956693/why-c-copy-constructor-must-use-const-object
 #### https://stackoverflow.com/questions/14211462/displaying-object-name-inside-destructor
@@ -22,7 +29,7 @@ for visualization of cpp program
 
 
 
-## Pointers and this pointer and reference
+### Pointers and this pointer and reference
 #### https://stackoverflow.com/questions/15468441/dereference-void-pointer
 #### https://stackoverflow.com/questions/12437791/confusing-output
 #### https://stackoverflow.com/questions/7418483/how-c-reference-works
@@ -31,19 +38,19 @@ for visualization of cpp program
 
 
 
-## Function pointer
+### Function pointer
 #### https://stackoverflow.com/questions/5488608/how-define-an-array-of-function-pointers-in-c
 
 
-## Virtual
+### Virtual
 https://stackoverflow.com/questions/5481941/c-pure-virtual-function-have-body
 https://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
 
 
 
-## STL
+### STL
 https://stackoverflow.com/questions/4303513/push-back-vs-emplace-back
 
-## Other
+### Other
 https://stackoverflow.com/questions/213907/c-stdendl-vs-n
 
