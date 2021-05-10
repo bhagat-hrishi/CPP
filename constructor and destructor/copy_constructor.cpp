@@ -5,6 +5,10 @@ class A
 {
     int a,b;
 public:
+    A()
+    {
+        cout<<"\nI am default constructor";
+    }
     A(int a,int b)
     {
         this->a=a;

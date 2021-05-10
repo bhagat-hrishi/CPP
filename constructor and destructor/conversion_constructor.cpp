@@ -16,6 +16,7 @@ public:
 };
 
 int main() {
+
 	Point t(20, 20);
 	t.print();
 	t = 30; // Member x of t becomes 30

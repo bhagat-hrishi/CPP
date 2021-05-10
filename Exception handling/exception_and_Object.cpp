@@ -30,5 +30,5 @@ int main()
     {
         cout<<"exception caught"<<endl;
     }
-    cout<<"after caught";
+    cout<<"after caught"<<endl;
 }

@@ -14,18 +14,20 @@ public:
         this->y = y;
     }
     /* Reference to the calling object can be returned */
-    Test &setX(int a)//if we return *this then we will get different result
+    Test& setX(int a)//if we return *this then we will get different result
     {
         x = a;
+        cout<<"\nfor a: "<<this;
         return *this;
     }
     /* Reference to the calling object can be returned */
-    Test &setY(int b)
+    Test& setY(int b)
     {
         y = b;
+        cout<<"\nfor b: "<<this;
         return *this;
     }
-    void print() { cout << "x = " << x << " y = " << y << endl; }
+    void print() { cout << "\nx = " << x << " y = " << y << endl; }
 };
 
 int main()

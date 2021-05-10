@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 /*
-Implicit type conversion doesn’t happen for primitive types.
+Implicit type conversion doesnot happen for primitive types.
 */
 int main()
 {
@@ -19,7 +19,7 @@ int main()
     }
     catch(...)
     {
-        cout<<"catch all";
+        cout<<"\ncatch all";
     }
     cout<<"\nAfter catch";
 }

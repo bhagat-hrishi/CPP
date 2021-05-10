@@ -9,8 +9,8 @@ int main()
     // After below free call, ptr becomes a
     // dangling pointer
     free(p);
-    // No more a dangling pointer
-    p=NULL;
+    p=NULL;// now No more a dangling pointer
+
 
     //void pointer
     //store address of any data type
@@ -46,6 +46,6 @@ int main()
     cout<<"\nwild pointer"<<wild;
     int x = 10;
 
-    // wild is not a wild pointer now
+    // wild pointer is not a wild pointer now
     wild = &x;
 }

@@ -14,27 +14,27 @@ int main()
         }
         catch(int a)
         {
-            cout<<"!int";
+            cout<<"Inner int"<<endl;
             throw;//here rethrown exception is not caught by same group catch statement it will caught by outer catch
             //statement
         }
         catch(double  a)
         {
-            cout<<"sadf";
+            cout<<"double"<<endl;
             throw;
         }
         catch(int b)
         {
-            cout<<"Another int";
+            cout<<"Another int"<<endl;
         }
     }
     catch(exception e)
     {
-        cout<<"outer  exception";
+        cout<<"outer  exception"<<endl;
     }
     catch(int a)
     {
-        cout<<"outer int";
+        cout<<"\nouter int"<<endl;
     }
 
 }
