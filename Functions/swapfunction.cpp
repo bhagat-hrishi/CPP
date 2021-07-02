@@ -12,7 +12,7 @@ class A
         A(int b,string n):a(b),name(n){}
         void show()
         {
-            cout<<endl<<"A:"<<a<<" "<<name;
+            cout<<endl<<"A: "<<a<<" "<<name;
         }
 };
 int main()

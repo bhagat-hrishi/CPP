@@ -14,11 +14,11 @@ public:
     {
         cout<<endl<<endl<<"Copy of product\n";
     }
-    getP()
+    int getP()
     {
         return p;
     }
-    getQ()
+    int getQ()
     {
         return q;
     }

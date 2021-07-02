@@ -45,7 +45,7 @@ public:
 //https://stackoverflow.com/questions/2089083/pure-virtual-function-with-implementation
 string Person::getName()
 {
-    return "Hi I am from pure virtual function";
+    return "Hi I am from pure virtual function(getName)";
 }
 class Faculty : public Person
 {

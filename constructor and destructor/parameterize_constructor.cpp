@@ -22,6 +22,8 @@ int main()
     obj1.show();
     A obj2(89);//implicit call
     obj2.show();
+    A obj3=34;//implicit call
+    obj3.show();
 
 
 }

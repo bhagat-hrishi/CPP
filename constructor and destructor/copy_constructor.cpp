@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 class A
@@ -14,14 +13,12 @@ public:
         this->a=a;
         this->b=b;
     }
-    public:
     A(const  A &obj)
     {
         cout<<"\nCopy constructor called here";
         a=obj.a;
         b=obj.b;
     }
-    public:
     void display()
     {
         cout<<"\nDATA: "<<a<<" "<<b<<"\n";
@@ -29,7 +26,7 @@ public:
 };
 int main()
 {
-    A obj1(8,9);
+    A obj1(8,9);//para constructor 
     obj1.display();
     A obj2=obj1;//copy constructor called here
     obj2.display();

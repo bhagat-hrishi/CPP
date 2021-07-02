@@ -12,6 +12,4 @@ int main()
     tmp=cin.get();//cin.get(void) version
     cout.put(ch);
     cout.put(ch);
-
-
 }

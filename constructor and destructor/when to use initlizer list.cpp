@@ -13,7 +13,7 @@ public:
     }
     void show()
     {
-        cout<<endl<<_ref;
+        cout<<endl<<_ref<<" "<<a;
     }
 
 };

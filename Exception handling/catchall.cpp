@@ -9,7 +9,7 @@ int main()
     cout<<"I am here"<<endl;
     try
     {
-        throw 'a';
+        throw 'a';//type conversion from char to int "not" happen here 
     }
     catch(int a)
     {

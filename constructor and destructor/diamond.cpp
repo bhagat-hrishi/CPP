@@ -57,7 +57,10 @@ class D :public B,public C
     }
 
 };
-main()
+/*
+Here Object of D class has two copies of all memebers of A and this causes ambiguities.
+*/
+int main()
 {
     cout<<"here constructor of A called 2 times and destructor also\n";
     D obj(6);

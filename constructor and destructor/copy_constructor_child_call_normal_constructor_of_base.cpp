@@ -23,15 +23,22 @@ public:
         cout <<"\nCopy D";
     }
 };
-void fun(D& obj)
+void fun1(D& obj) //object is passed as reference so copy const not called
+{
+
+}
+void fun2(D obj)//Object is passed as value so copy const called
 {
 
 }
 int main()
 {
-   D d1;
+   D d1;//normal const called
    cout<<endl<<"_____________________"<<endl;
    D d(d1);
-   cout << endl<< "_____________________" << endl;
-   fun(d1);
+   cout << endl<< "after call to fun2_____________________" << endl;
+   fun2(d1);
+   cout << endl<< "after call to fun1_____________________" << endl;
+   fun1(d1);
+   
 }
